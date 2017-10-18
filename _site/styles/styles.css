@@ -28,8 +28,23 @@ footer nav a {
   text-transform: uppercase;
   font-weight: 400;
 }
-
-/* Footer */
+h2{
+  font-size: 2.8rem;
+  text-align: center;
+}
+p{
+  font-size: 1rem;
+  padding: 0 5%;
+}
+/*
+Helpers
+*/
+.centered{
+  text-align: center;
+}
+/*
+Footer
+*/
 
 footer {
   background-color: rgba(135, 245, 216, 0.57);
