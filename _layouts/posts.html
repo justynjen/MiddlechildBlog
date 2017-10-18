@@ -9,22 +9,22 @@ layout: default
   </div>
 </section>
 
-<section class="padded grid post">
-  <div class="col-8_xs-12 padded-2">
+<section class="grid">
+  <div class="col-8_xs-12">
    {{content}}
   </div>
 
 
   <div class="col-4_xs-12">
-    <div class="margin-2 padded sidebar">
+    <div>
       <h2> About Justyn Jen </h2>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="margin-2 padded sidebar">
+    <div>
       <h2> Recent Posts</h2>
       {% for post in site.posts %}
 
-        <a href="{{post.url}}" class="padded-2 block">
+        <a href="{{post.url}}">
           <h4> {{post.title}}</h4>
           <div class="bg-image p-50" style="background-image:url('{{post.image_path}}')"></div>
 
