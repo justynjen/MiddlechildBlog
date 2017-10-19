@@ -8,3 +8,6 @@ url: "http://justynjen.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  - ebooks
